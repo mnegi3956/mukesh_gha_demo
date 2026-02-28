@@ -7,6 +7,6 @@ jobs:
     steps:
       - name: clone repository
         runs: |
-        echo "Cloning the repository..."
+         echo "Cloning the repository..."
          git clone https://github.com/mnegi3956/mukesh_gha_demo.git myfolder
-         cd myfolder && ls -la    
+         cd myfolder && ls -la
