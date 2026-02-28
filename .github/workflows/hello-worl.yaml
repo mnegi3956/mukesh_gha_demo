@@ -5,7 +5,8 @@ jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
-      - name: Hello World 
-        run: echo "Hello, World!"
-      - name: Say Hello Again
-        run: echo "hello again, World!" 
+      - name: clone repository
+        runs: |
+        echo "Cloning the repository..."
+         git clone https://github.com/mnegi3956/mukesh_gha_demo.git myfolder
+         cd myfolder && ls -la    
