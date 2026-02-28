@@ -6,7 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: clone repository
-        run: |
-          echo "Cloning the repository..."
-          git clone https://github.com/mnegi3956/mukesh_gha_demo.git myfolder
-          cd myfolder && ls -la
+        uses: actions/checkout@v6
