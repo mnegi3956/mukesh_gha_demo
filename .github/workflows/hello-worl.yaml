@@ -1,7 +1,8 @@
 name: Hello World Workflow
-on: [push]
-jobs:
-  hello world:
+on: 
+  push:
+  jobs:
+  hello-world:
     runs-on: ubuntu-latest
     steps:
       - name: Hello World 
