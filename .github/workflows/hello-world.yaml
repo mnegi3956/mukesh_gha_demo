@@ -8,6 +8,7 @@ jobs:
       - name: clone repository
         uses: actions/checkout@v6
   build:
+    needs: hello-world
     runs-on: ubuntu-latest
     steps:
       - name: build
